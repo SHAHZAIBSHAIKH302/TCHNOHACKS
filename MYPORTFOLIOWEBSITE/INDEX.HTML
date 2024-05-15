@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <STYLE>
+        *{
+            box-sizing:border-box;
+            margin: 0%;
+        }
+        body{
+            background:-webkit-linear-gradient(top,rgb(241, 241, 241),rgb(131, 131, 169));
+            font-family: 'Lora', serif;
+            
+        }
+        .container{
+            display: flex;
+            flex-direction:column;
+            flex-wrap: wrap;
+        }
+        .mar{
+            background:-webkit-radial-gradient(circle,#948ec4,white);
+            
+            /* height:fit-content; */
+            margin:4px 0px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #nav{
+            display: flex;
+            flex-wrap:wrap;
+            background-color: black;
+            color:white;
+            height:50px;
+            /* position: sticky; */
+        }
+        .list{
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+        li{
+            margin:0px 19px;
+        }
+        a{
+            text-decoration: none;
+            color:white;
+        }
+        #input{
+            margin-left: 300px;
+        }
+        .para{
+            display: flex;
+            /* justify-content: center; */
+            flex-wrap:wrap;
+            margin:12px 0px;
+            padding:0px 0px;
+            width:auto;
+            flex-wrap: wrap;
+            /* border:2px solid red; */
+        }
+        .HEAD{
+            justify-content:center;
+            text-decoration: underline;
+            padding-left: 10px;
+            margin-bottom: 3px;
+        }
+    .PARA{
+        margin-top:4pxpx;
+        text-align: justify;
+        word-wrap: break-word;
+    }
+    a:hover{
+        background-color: aqua;
+        color:black;
+    }
+    #img{
+        display:block;
+        margin:auto;
+        height:fit-content;
+    }
+    #profile{
+        opacity:37;
+        height:245px;
+        border-radius:125px;
+    }
+    /* education wala ki setting */
+    .edu{
+        border:2px solid red;
+        padding: 2px 0px;
+        display:flex;
+        /* flex-wrap: wrap; */
+        flex-direction: row;
+        /* margin:4px 30px; */
+    }
+    .he{
+        justify-content:center;
+            text-decoration: underline;
+            padding-left: 10px;
+            margin-bottom: 3px;
+
+    }
+
+#imp{
+    text-decoration:underline;
+    font-size: 23;
+    margin:2px 2px;
+}
+.box{
+    margin:2px;
+    border: 2px solid red;
+    display:flex;
+    flex-direction:column;
+    background-color: white;
+
+}
+.desc{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border:2px solid red;
+    background-color: #b1ffff97;
+}
+
+/* FORM DESIGNING */
+#form{
+    border:2px saddlebrown;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    /* background-color: black; */
+    /* color:white; */
+}
+
+#form input , textarea{
+    width:400px;
+    height:40px;
+}
+
+
+
+
+
+
+
+
+    </STYLE>
+</head>
+<body>
+    <div class="container">
+        <div class="mar">
+            <marquee>
+                <H1>
+
+                    Welcome to my Portfolio Website
+                </H1>
+            </marquee>
+        </div>
+        <div id="nav">
+            <ul class="list">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#FORM ">CONTACT US</a></li>
+                <li id="input"><input type="text" placeholder="search my website"></li>
+            </ul>
+        </div>
+        <div class="para">
+            <h1 class="HEAD" STYLE="text-align: CENTER; FONT-SIZE:35PX;">
+                ABOUT MYSELF
+            </h1>
+            <P CLASS="PARA">
+                MY NAME IS SHAHZEB.I AM PROFESSIONAL WEB DESIGNER,PROGRAMMAR AND COMPUTER HARDWARE TECHNICAN.I AM PROFICIENT IN WEB DESIGNING WITH HTML AND CSS.I DESIGN MANY RESPONSIVE WEBSITES FOR CLIENTS ON UPWORK AND OTHER EARNING PLATFORM.I AM LITTLE BIT PROFICIENT IN 
+                C++,C AND PYTHON LANGUAGE.I KNOW ALL THESE OBJECT ORIENTED PROGRAMMING LANGUAGES LITTLE BIT.MY AIM IS TO BECOME PROFESSIONAL WEB DEVELOPER,BEST PROGRAMMAR. 
+            </P>
+        </div>
+        <DIV id="img">
+            <img src="profile.jpg" alt="MY PIC" id="profile">
+        </DIV>
+        
+        <h1 CLASS="HEAD" STYLE="text-align: center;">
+            EDUCATION
+        </h1>
+        <!--EDUCATION AREA-->
+        <div class="edu">
+            <BR>
+             <div class="box">
+                <H3>COLLEGE\INSTITUTE:-</H3>
+                <BR>
+                <H3>CADET COLLEGE LARKHANA PAKISTAN</H3>  
+                 FROM 2020 TO 2022      
+             </div>
+             <div class="desc">
+                UNDER THE SUPERVISION OF CADET COLLEGE STAFF I COMPLETE MY DEGREE OF INTERMEDIATE IN FSC(PRE ENGINEERING).I LEARN ALOT OF FUNDAMENTS OF SCIENCE USED IN ENGINEERING FIELD.I COMPLETED THIS DEGREE WITH GRADE: A+ .MY EFFORT BECOME FRUITFUL AND I BECOME TOPPER OF MY COLLEGE
+             </div>
+               
+        </div>
+
+        <div class="edu">
+            <BR>
+             <div class="box">
+                <H3>COLLEGE\INSTITUTE:-</H3>
+                <BR>
+                <H3>QUAID-I-AZAM UNIVERSITY PAKISTAN</H3>  
+                 FROM 2022 TO 2026      
+             </div>
+             <div class="desc">
+                UNDER THE SIPERVISION OF QUAID-I-AZAM UNIVERSITY STAFF I COMPLETE MY DEGREE(INSHALLAH) OF BACHELOR IN IT(INFORMATION TECHNOLOGY).I LEARN ALOT OF FUNDAMENTS OF COMPUTER SCIENCE USED IN PROGRAMMING FIELD.I COMPLETED THIS DEGREE WITH GRADE: A+  (EXPECTED)
+             </div>
+               
+        </div>
+        <BR>
+        <h1 CLASS="HEAD" STYLE="text-align: center;">
+            CAREER
+        </h1>
+        <!--career-->
+        <div class="edu">
+            <BR>
+             <div class="box">
+                <H3>COMPANY\INSTITUTE:-</H3>
+                <BR>
+                <H3> CODESOFT WEB DEVELOPER </H3>  
+                 FROM 2022 TO 2023      
+             </div>
+             <div class="desc">
+            I APPLY AT THIS COMPANY AFTER MY SEMESTERS.AND I ACHIEVE THIS INTENSHIP.IN WHICH I DEVELOP WEBSITE FOR CERTIFICATION.I CURRENTLY WORK UPON IT.I AM PROFICIENT IN HTML5 AND CSS3 NOW I BECOME PROFESSIONAL WEB DEVELOPER AND BEST PROGRMMAR.   
+            </div>
+               
+        </div>
+
+        <div class="edu">
+            <BR>
+             <div class="box">
+                <H3>COLLEGE\INSTITUTE:-</H3>
+                <BR>
+                <H3>AL HASSAN INSTITUTE ACADEMY TEACHER</H3>  
+                 FROM 2022 TO 2026      
+             </div>
+             <div class="desc">
+                AS START TEACHING AFTER MY INTERMEDIATE DEGREE.I TEACHED ALL CLASSES FROM 1-12TH I AM VERY PROFICIENT TEACHING SKILLS.I AM GOOD TEACHER OF PHYSIS ,MATH.AND MY COMPUTER SCIENCE.I WORK UPON IT.MANY OF MY STUDENTS ARE ALSO BECOME GOOD TEACHER KNOW IN DIFFERENT ACADEMIES
+             </div>
+
+
+
+
+
+
+               
+        </div>
+        <!-- FORM DESIGNING START -->
+        <br>
+        
+        <h1 CLASS="HEAD" STYLE="text-align: center;">
+            CONTACT US
+        </h1>
+        <div id="form">
+            <form action="noaction.php">
+                <label for="NAME">NAME:</label>
+                <BR>
+                <input type="text" id="name">
+                <BR>
+                    <br>
+                    <label for="EMAIL:">EMAIL:</label>
+                <BR>
+                   
+                <input type="email" id="EMAIL">
+                <BR> <BR>
+                    <br>
+                    <label for="CLASS:">CLASS:</label>
+                <BR>
+                   
+                <input type="NUMBER" id="CLASS">
+                <BR>
+                    <BR>
+                        <label for="TEXT:">GIVE REVIEW:</label>
+                    <BR>
+                    <input type="TEXT" id="TEXT">
+                    <br>
+                    <BR>
+                        <textarea ROW="10" COL="700" placeholder="EXPLAIN ALL ABOUT QUERIES"></textarea>
+                        <br>
+                        <br>
+                        <input type="submit"/>
+
+            </form>
+            <br/>
+            <br/>
+        </div>
+        <footer>
+            &copy; made by shahzaib shiekh
+        </footer>
+
+        <!-- <div id="form">
+            <form action="" ID="FORM"> 
+            <input type="TEXT" placeholder="ENTER YOUR NAME">
+            <input type="email" placeholder="ENTER YOUR EMAIL">
+            <input type="number" placeholder="ENTER YOUR CLASS NO">
+            <input type="TEXT" placeholder="ENTER YOUR QUESTION:">
+            
+            <input type="SUMIT">
+
+            </form>
+
+
+        </div> -->
+
+    </div>
+</body>
+</html>
